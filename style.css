@@ -31,8 +31,19 @@
 .divcursos{
   display: inline-block; 
   width: 20%;
-  
 }
+
+.mainbody{  
+  margin: 1
+
+
+}
+
+
+
+
+
+
 
 
 /*
@@ -65,9 +76,7 @@ menu {
   }
 
 menu li a{
-    margin-right: 10px;
-    
-  
+    margin-right: 10px; 
   }
 
   .apresentacao {
@@ -75,6 +84,7 @@ menu li a{
     align-items: center;
   
   }
+
 
 
 */
