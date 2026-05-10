@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre - AvanceTec</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="corpo_site" style="background-image: url(assets/bg.png); width: 100%;">
+<body class="corpo_site">
     <!-- Cabeçalho -->
-    <header style="background-color: aqua;">
-            <nav>
-                <div class="logo" style="display: inline-block; width: 5%; height: 60;">
-                <br><img src="assets/logo1.png" width=auto height=50 alt="AvanceTec">
-                </div>
-                <div class="logo" style="display: inline-block; width: 75%;">
-                    <menu>
-                        <a href="index.html">Início</a>
-                        <a href="sobre.html">Sobre</a>
-                        <a href="cursos.html">Cursos</a>
-                        <a href="contato.html">Contato</a>
-                        <a href="depoimentos.html">Depoimentos</a>
-                        <a href="login.html">Login</a>
-                        <a href="matricula.html">Matrícula</a>
-                        <a href="admin.html">Admin</a>
-                    </menu>
-                </div>
-                
+    <header class="headersite">
+        <a href="index.html"><img src="assets/logo1.png" class = "logomenu" alt="AvanceTec"  width=auto height=50 ></a>
+        <nav class="menunav site-nav">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="labelmenu">
+            <span class="spammenu"></span>
+            </label>
+            <menu class="sitemenu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="depoimentos.html">Depoimentos</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="matricula.html">Matrícula</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </menu>
             </nav>
     </header>
 
     <!-- Conteúdo Principal -->
-    <main>
+    <main class="site-main">
         
         <section>
             <div style="text-align: center">
@@ -45,25 +45,25 @@
             <div>
                 <div>
                     <h2 style="text-align: center;">Sobre a Plataforma AvanceTec</h2>
-                    <div style="text-align: justify;">
-                        <p>
+                    <div>
+                        <p class="texto">
                             A AvanceTec é uma plataforma inovadora de educação em tecnologia, dedicada a transformar carreiras 
                             e abrir novas oportunidades no mercado digital. Os cursos da AvanceTec são destinados às pessoas que 
                             querem se desenvolver na área de tecnologia, desde iniciantes até profissionais experientes que buscam 
                             se atualizar com as tendências mais recentes do setor.
                         </p>
-                        <p>
+                        <p class="texto">
                             Nossa missão é oferecer uma educação de qualidade, acessível e prática, que prepare nossos alunos 
                             para os desafios reais do mercado de trabalho. Contamos com diversos cursos com certificado, preparados 
                             e estruturados por profissionais experientes que atuam nas principais empresas de tecnologia.
                         </p>
-                        <p>
+                        <p class="texto">
                             Além de termos suporte dedicado para as dúvidas dos alunos, oferecemos uma experiência de aprendizado 
                             completa e prática que irá impulsionar sua carreira para o próximo nível. Nossa plataforma combina 
                             vídeo-aulas interativas, exercícios práticos, projetos reais e comunidade de alunos para garantir o melhor 
                             aprendizado.
                         </p>
-                        <p>
+                        <p class="texto">
                             Na AvanceTec, acreditamos que a educação é a chave para o sucesso na era digital. Por isso, estamos 
                             comprometidos em fornecer recursos de alta qualidade e suporte contínuo para ajudar nossos alunos a alcançar 
                             seus objetivos profissionais e se destacar no mercado de trabalho.
@@ -79,16 +79,16 @@
                             <li>Projetos Práticos do Mundo Real</li>
                             <li>Comunidade Ativa de Aprendizado</li>
                         </ul>
-                        </div>>
                     </div>
-                    
                 </div>
+                
             </div>
         </section>
+         <br><br><br>
     </main>
 
 
-    <footer>
+    <footer class="site-footer">
         <div style="text-align: center;">
             <p>&copy; 2026 AvanceTec. Desenvolvido por <a href="sobreautor.html">Raquel Melo</a>.</p>
             <p>Desenvolvendo profissionais de tecnologia para o futuro</p>

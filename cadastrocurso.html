@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administração - AvanceTec</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="corpo_site" style="background-image: url(assets/bg.png); width: 100%;">
+<body class="corpo_site" >
     <!-- Cabeçalho -->
-    <header style="background-color: aqua;">
-            <nav>
-                <div class="logo" style="display: inline-block; width: 5%; height: 60;">
-                <br><img src="assets/logo1.png" width=auto height=50 alt="AvanceTec">
-                </div>
-                <div class="logo" style="display: inline-block; width: 75%;">
-                    <menu>
-                        <a href="index.html">Início</a>
-                        <a href="sobre.html">Sobre</a>
-                        <a href="cursos.html">Cursos</a>
-                        <a href="contato.html">Contato</a>
-                        <a href="depoimentos.html">Depoimentos</a>
-                        <a href="login.html">Login</a>
-                        <a href="matricula.html">Matrícula</a>
-                        <a href="admin.html">Admin</a>
-                    </menu>
-                </div>
-                
+    <header class="headersite">
+        <a href="index.html"><img src="assets/logo1.png" class = "logomenu" alt="AvanceTec"  width=auto height=50 ></a>
+        <nav class="menunav site-nav">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="labelmenu">
+            <span class="spammenu"></span>
+            </label>
+            <menu class="sitemenu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="depoimentos.html">Depoimentos</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="matricula.html">Matrícula</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </menu>
             </nav>
     </header>
 
     <!-- Conteúdo Principal -->
-    <main>
+    <main class="site-main">
         
         <section>
             <div style="text-align: center">
@@ -41,12 +41,13 @@
         <br><br><br><br>
 
         <!-- Cadastro de Cursos -->
-        <section>
-            <h2>Cadastro de Cursos</h2>
+        <section class="cadcursossection">
+            
                 <!-- Formulário de Contato -->
-                <div style="display: inline-block; width: 20%;">
-                    <h2>Envie uma Mensagem</h2>
-                    <form>
+                <div class="cadcursosdiv">
+                    <h2>Cadastro de Cursos</h2>
+                    <h3>Envie uma Mensagem</h3>
+                    <form class="cadcursoform">
                         <label for="Categoria">Categoria:</label><br>
                         <input type="text" id="Categoria" name="Categoria" required><br><br>
 
@@ -70,7 +71,8 @@
                     </form>
                 </div>
         </section>
-        <!--Lisata de cursos-->
+        <br><br><br><br><br>
+        <!--Lista de cursos-->
         <section>
         <h2> Lista de Cursos</h2>
         <table style="border-width: 1px;">
@@ -156,10 +158,11 @@
             </tbody>
         </table>
         </section>
+        <br><br><br><br><br>
     </main>
 
 
-    <footer>
+    <footer class="site-footer">
         <div style="text-align: center;">
             <p>&copy; 2026 AvanceTec. Desenvolvido por <a href="sobreautor.html">Raquel Melo</a>.</p>
             <p>Desenvolvendo profissionais de tecnologia para o futuro</p>
